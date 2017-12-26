@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.4'
+gem 'rails'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
@@ -18,7 +18,15 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+# learn-rails
+gem 'activerecord-tableless'
+gem 'compass-rails'
+gem 'figaro'
+gem 'gibbon'
+gem 'google_drive'
+gem 'high_voltage'
+gem 'simple_form'
+gem 'zurb-foundation'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -44,6 +52,9 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+  gem 'better_errors'
+  gem 'quiet_assets'
+  gem 'rails_layout'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
