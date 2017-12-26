@@ -1,7 +1,7 @@
 class VisitorsController < ApplicationController
 
   def new
-  @owner = Owner.new
+  @visitor = Visitor.new
   end
   def create
     @visitor = Visitor.new(secure_params)
