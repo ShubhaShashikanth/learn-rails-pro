@@ -9,10 +9,11 @@ class VisitorsController < ApplicationController
       @visitor.subscribe
       flash[:notice] = "Signed up #{@visitor.email}."
       redirect_to root_path
-      else
+    else
       render :new
-      end
     end
+    
+   end
     
     private
     
